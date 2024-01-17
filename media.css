@@ -1,0 +1,75 @@
+@media (max-width:850px){
+    body{
+        width: 100%;
+    }
+    /* navbar */
+    #nav-bar{
+        flex-direction: column;
+    }
+    #nav-bar a{
+        font-size: 1.2rem;
+    }
+    /* profile */
+    #profile{
+        flex-direction: column;
+        padding: 3rem 2rem;
+        gap: 2rem;
+        width: 80%;
+        margin: 3rem auto;
+    }
+    /* about */
+    .about-containers{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .about-container{
+        width: 60%;
+    }
+    .about-text{
+        width: 70%;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    /* skills */
+    .skills-containers{
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+    .skills-container{
+        width: 60%;
+    }
+    /* projects */
+    #projects .btn-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* contacts */
+    .contact-containers{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.2rem 2rem;
+    }
+    /* footer */
+    #footer a{
+        font-size: 1.2rem;
+
+    }
+    #footer p{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 1200px){
+    .skills-containers{
+        gap: 1rem;
+    }
+    #projects .skills-containers{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    #projects .skills-container{
+        width: 60%;
+    }
+}
